@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>share card</title>
+
+<style>
+  @font-face{
+    font-family:"NNA";
+    src:url("NotoNaskhArabic.ttf") format("truetype");
+    font-weight:100 900;font-display:block;
+  }
+  :root{
+    --green:#397542;
+    --tan:#80724F;
+    --ink:#111315;
+    --ink-soft:#3D4347;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    width:1200px;height:630px;background:#fff;
+    font-family:"NNA",serif;color:var(--ink);
+    display:flex;padding:34px;
+  }
+  .frame{
+    flex:1;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;gap:6px;
+    border:64px solid transparent;
+    border-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cpath d='M28.5 9.0H91.5A19.5 19.5 0 0 0 111.0 28.5V91.5A19.5 19.5 0 0 0 91.5 111.0H28.5A19.5 19.5 0 0 0 9.0 91.5V28.5A19.5 19.5 0 0 0 28.5 9.0Z' fill='none' stroke='%23397542' stroke-width='2.4'/%3E%3Cg fill='none' stroke='%2380724F' stroke-width='1.7'%3E%3Crect x='15.0' y='15.0' width='90.0' height='90.0'/%3E%3Crect x='9.0' y='9.0' width='6.0' height='6.0'/%3E%3Crect x='105.0' y='9.0' width='6.0' height='6.0'/%3E%3Crect x='105.0' y='105.0' width='6.0' height='6.0'/%3E%3Crect x='9.0' y='105.0' width='6.0' height='6.0'/%3E%3C/g%3E%3C/svg%3E") 30 stretch;
+  }
+  h1{
+    font-family:"Diwan Thuluth", "NNA", serif;
+    font-weight:400;font-size:205px;line-height:1.06;margin:0;
+    padding-top:0;
+  }
+  h2{
+    font-family:"DecoType Naskh", "NNA", serif;
+    font-weight:400;font-size:156px;line-height:1.2;margin:0 0 2px;
+    color:var(--ink);white-space:nowrap;
+  }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <h1>أفراح</h1>
+    <h2>الدايل و المجلي</h2>
+  </div>
+</body>
+</html>

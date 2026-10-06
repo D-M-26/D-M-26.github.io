@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//aldayel-almujalli//wedding-invite//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Asia/Riyadh
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:+03
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:aldayel-almujalli-20261023@invite
+DTSTAMP:20261001T025525Z
+DTSTART;TZID=Asia/Riyadh:20261023T200000
+DTEND;TZID=Asia/Riyadh:20261023T233000
+SUMMARY:زواج عبدالرحمن عمر الدايل بقاعة اليز
+ يه بالرياض
+LOCATION:قاعة اليزيه للاحتفالات بالرياض
+DESCRIPTION:https://maps.app.goo.gl/WRDp3uiGdHvainDf6?g_st=ic
+URL:https://maps.app.goo.gl/WRDp3uiGdHvainDf6?g_st=ic
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:تذكير بزواج عبدالرحمن عمر الدايل ب
+ قاعة اليزيه بالرياض
+END:VALARM
+END:VEVENT
+END:VCALENDAR
